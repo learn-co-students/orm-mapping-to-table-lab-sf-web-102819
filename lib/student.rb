@@ -45,6 +45,12 @@ class Student
     new_student
   end
 
+  #SAME AS: 
+  # def self.create(name:, grade:)
+  #   new_student = Student.new(name, grade)
+  #   new_student.save
+  #   new_student
+  # end
 
 
 
